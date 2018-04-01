@@ -71,7 +71,7 @@ For example, If my account has 100 baht. My friend transfer to me 100 baht but I
 
 6.1 Unsynchronized counter is the fastest and using ReentrantLock is the slowest.
 
-6.2
+6.2 Lock can be applied to the problem because when it is executing lock use try-finally to ensure that only one thread modifies the resource at any one time.
 
 ## 7. Using Many Threads (optional)
 	-
